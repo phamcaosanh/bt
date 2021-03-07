@@ -1,1 +1,19 @@
+Bt11 Viết chương trình tính chu vi diện tích hình tròn
+
+#include<stdio.h>
+
+int main(){
+  int r;
+  float Cv,Dt,pi = 3.14;
+  printf("Nhap Ban Kinh R :");
+  scanf("%d", &r);
+  Cv = 2*pi*r;
+  Dt = pi*r*r;
+  printf("Dien tich hinh tron = %.2f\n",Dt);
+  printf("Chu vi hinh tron = %.2f",Cv);
+
+  return 0;
+}
+
+
 
